@@ -72,7 +72,6 @@
     font-style: normal;
 }
 
-/* USER STYLES */
 
 @font-face {
     font-family: 'Playfair Display-italic';
@@ -98,7 +97,7 @@
     font-style: normal;
 }
 
-
+/* USER STYLES */
 
 
 body {
@@ -157,9 +156,9 @@ nav ul {
         rgba(0,0,0,0.25) 100%
     ),
     /* 2nd background - girl */
-    url("fonts-web/images/banner-girl.png") no-repeat center 80px,
+    url("images/banner-girl.png") no-repeat center 80px,
     /*  3rd background (furthest back) - flower wallpaper */
-    url("fonts-web/images/flower-bkgd.jpg") repeat-x center top;
+    url("images/flower-bkgd.jpg") repeat-x center top;
     /* background-position: center 90px, center; 50% from left and 90px down from top */
     background-size:  cover, contain, cover;
     background-repeat: no-repeat, no-repeat, repeat-x;    

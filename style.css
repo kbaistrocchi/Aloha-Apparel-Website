@@ -1,9 +1,24 @@
 body {
     width: 100%;
     box-sizing: border-box;
+    color: #2d2d2d;
 }
 
+a {
+    color: #e2574c;
+}
 
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    text-transform: uppercase;
+}
 
 
 .banner {
@@ -82,3 +97,14 @@ footer {
     justify-content: space-around;
 }
 
+
+/* DESKTOP & TABLET */
+
+@media only screen and (min-width: 600px) {
+  nav {
+      order: 1;
+  }
+  .cart {
+      order: 2;
+    }
+}

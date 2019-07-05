@@ -1,5 +1,6 @@
 body {
     width: 100%;
+    box-sizing: border-box;
 }
 
 
@@ -39,5 +40,45 @@ body {
 
 .large-title {
     font-size: 3rem;
+}
+
+.updates {
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #242424;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 8% 1% 3%;
+    min-height: 200px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.address {
+    color: #969696;
+    padding-top: 3%;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-media ul {
+    height: 70%;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 

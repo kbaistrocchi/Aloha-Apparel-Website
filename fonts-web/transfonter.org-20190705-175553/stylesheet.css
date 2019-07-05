@@ -1,7 +1,5 @@
-/* CUSTOM FONTS */
-
 @font-face {
-    font-family: 'Raleway-mediumitalic';
+    font-family: 'Raleway';
     src: url('Raleway-MediumItalic.eot');
     src: url('Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
         url('Raleway-MediumItalic.woff2') format('woff2'),
@@ -13,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'Raleway-lightitalic';
+    font-family: 'Raleway';
     src: url('Raleway-LightItalic.eot');
     src: url('Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
         url('Raleway-LightItalic.woff2') format('woff2'),
@@ -25,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'Raleway-light';
+    font-family: 'Raleway';
     src: url('Raleway-Light.eot');
     src: url('Raleway-Light.eot?#iefix') format('embedded-opentype'),
         url('Raleway-Light.woff2') format('woff2'),
@@ -37,7 +35,7 @@
 }
 
 @font-face {
-    font-family: 'Raleway-medium';
+    font-family: 'Raleway';
     src: url('Raleway-Medium.eot');
     src: url('Raleway-Medium.eot?#iefix') format('embedded-opentype'),
         url('Raleway-Medium.woff2') format('woff2'),
@@ -49,7 +47,7 @@
 }
 
 @font-face {
-    font-family: 'Playfair Display-bolditalic';
+    font-family: 'Playfair Display';
     src: url('PlayfairDisplay-BoldItalic.eot');
     src: url('PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
         url('PlayfairDisplay-BoldItalic.woff2') format('woff2'),
@@ -61,7 +59,7 @@
 }
 
 @font-face {
-    font-family: 'Playfair Display-regular';
+    font-family: 'Playfair Display';
     src: url('PlayfairDisplay-Regular.eot');
     src: url('PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
         url('PlayfairDisplay-Regular.woff2') format('woff2'),
@@ -72,10 +70,8 @@
     font-style: normal;
 }
 
-/* USER STYLES */
-
 @font-face {
-    font-family: 'Playfair Display-italic';
+    font-family: 'Playfair Display';
     src: url('PlayfairDisplay-Italic.eot');
     src: url('PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
         url('PlayfairDisplay-Italic.woff2') format('woff2'),
@@ -87,7 +83,7 @@
 }
 
 @font-face {
-    font-family: 'Playfair Display-bold';
+    font-family: 'Playfair Display';
     src: url('PlayfairDisplay-Bold.eot');
     src: url('PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
         url('PlayfairDisplay-Bold.woff2') format('woff2'),
@@ -98,143 +94,3 @@
     font-style: normal;
 }
 
-
-
-
-body {
-    width: 100%;
-    box-sizing: border-box;
-    color: #2d2d2d;
-    font-size: 14px;
-}
-
-a {
-    color: #e2574c;
-    text-decoration: none;
-}
-
-/* HEADER */
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2% 5%;
-}
-
-.aloha-logo {
-    width: 20%;
-}
-
-nav {
-    min-width: 47%;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-}
-
-
-
-.cart {
-    width: 6%;
-}
-
-
-.banner {
-    text-align: center;
-    margin: 0 auto;
-    color: white;
-    height: 400px;
-    background: 
-    /* 1st background - grey overlay */
-    linear-gradient(
-        rgba(0,0,0,0.25) 0%,
-        rgba(0,0,0,0.25) 100%
-    ),
-    /* 2nd background - girl */
-    url("images/banner-girl.png") no-repeat center 80px,
-    /*  3rd background (furthest back) - flower wallpaper */
-    url("images/flower-bkgd.jpg") repeat-x center top;
-    /* background-position: center 90px, center; 50% from left and 90px down from top */
-    background-size:  cover, contain, cover;
-    background-repeat: no-repeat, no-repeat, repeat-x;    
-}
-
-.small-title {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    /* margin-top: 200px; */
-    padding-top: 200px;
-}
-
-/* .bannerText {
-    position: relative;
-    top: calc(50% - 25px);
- } */
-
-.large-title {
-    font-size: 3rem;
-}
-
-.updates {
-
-}
-
-/* FOOTER */
-
-footer {
-    background-color: #242424;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    padding: 1% 8% 1% 3%;
-    min-height: 200px;
-}
-
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.address {
-    color: #969696;
-    padding-top: 3%;
-}
-
-.social-media {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.social-media ul {
-    height: 70%;
-    padding: 3% 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-i {
-    padding-right: 1em;
-}
-
-
-/* DESKTOP & TABLET */
-
-@media only screen and (min-width: 600px) {
-    html {
-        font-size: 16px;
-    }
-    nav {
-      order: 1;
-    }
-   .cart {
-      order: 2;
-    }
-}

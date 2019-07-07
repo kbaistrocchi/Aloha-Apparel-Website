@@ -112,6 +112,18 @@ h1, h2, h3, h4 {
     font-family: 'Playfair Display-regular';
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 a {
     color: #e2574c;
     text-decoration: none;
@@ -202,9 +214,21 @@ nav ul {
     font-family: 'Playfair Display-regular';
 }
 
-.updates {
+/* ABOUT */
 
+.about {
+    text-align: center;
+    padding: 8% 3%;
 }
+
+.about h2 {
+    margin: 6% auto;
+}
+
+.about p {
+    line-height: 1.8rem;
+}
+
 
 /* SUBSCRIBE FORM */
 

@@ -229,6 +229,39 @@ nav ul {
     line-height: 1.8rem;
 }
 
+/* PRODUCTS GRID */
+
+.products {
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products .wide, .products .square {
+    border: 2px solid #fff;
+}
+
+.wide {
+width: 100%;
+}
+
+.square {
+    width: 50%;
+}
+
+.mens {
+    background-image: url("images/mens-category.jpg");
+}
+
+.trends {
+    background-image: url("images/trends-category.jpg");
+}
+
+.glasses {
+    background-image: url("images/glasses-category.jpg");
+}
+
 
 /* SUBSCRIBE FORM */
 

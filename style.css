@@ -238,31 +238,24 @@ nav ul {
     height: 800px;
     display: flex;
     justify-content: space-between;
+    align-content: space-between;
     flex-wrap: wrap;
 }
 
 .products .wide, .products .square {
-    min-height: 23.5%;
+    height: calc((100% - 9vw)/4);
 }
 
 .wide {
     min-width: 100%;
-    /* min-height: calc((100% - 3vw)/4); */
+    
 }
 
 .square {
-    /* min-width: calc((100% - 1vw)/2); */
-    min-width: 49%;
-    /* min-height: calc((100% - 3vw)/4); */
+    min-width: calc((100% - 3vw)/2);
 }
 
-.margins-top-mob {
-    margin-top: 2%;
-}
 
-.marg-left {
-    margin-left: 2%;
-}
 
 
 
@@ -404,31 +397,14 @@ footer a {
     }
 
     .products .wide, .products .square {
-        min-height: 48%;
+        min-height: calc((100% - 1vw)/2);
     }
-
 
     .wide {
-        min-width: 49%;
-        /* min-width: calc(50% - 1vw);
-        min-height: calc((100% - 1vw)/2); */
+        min-width: calc(50% - 0.5vw);
+        
     }
     .square {
-        min-width: 23%;
-        /* min-width: calc((50% - 1vw)/2);
-        min-height: calc((100% - 1vw)/2); */
-    }
-
-    .margins-top-mob {
-        margin-top: 0;
-    }
-    .marg-top-lrg {
-        margin-top: 2%;
-    }
-    .margins-left-lrg {
-        margin-left: 2%;
-    }
-    .margin-right-lrg {
-        margin-right: 2%;
+        min-width: calc((50% - 1.5vw)/2);
     }
 }

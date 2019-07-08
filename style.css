@@ -238,7 +238,7 @@ nav ul {
     height: 800px;
     display: flex;
     justify-content: space-between;
-    align-items: space-between;
+    align-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -246,13 +246,13 @@ nav ul {
 }
 
 .wide {
-min-width: 100%;
-max-height: 24%;
+    min-width: 100%;
+    min-height: calc((100% - 3vw)/4);
 }
 
 .square {
-    min-width: 49%;
-    max-height: 24%;
+    min-width: calc((100% - 1vw)/2);
+    min-height: calc((100% - 3vw)/4);
 }
 
 .mens {
@@ -377,6 +377,7 @@ footer a {
 /* DESKTOP & TABLET */
 
 @media only screen and (min-width: 600px) {
+    /* HEADER */
     html {
         font-size: 16px;
     }
@@ -385,5 +386,17 @@ footer a {
     }
    .cart {
       order: 2;
+    }
+    /* PRODUCTS */
+    .products {
+        height: 400px;
+    }
+    .wide {
+        min-width: calc(50% - 1vw);
+        min-height: calc((100% - 1vw)/2);
+    }
+    .square {
+        min-width: calc((50% - 1vw)/2);
+        min-height: calc((100% - 1vw)/2);
     }
 }

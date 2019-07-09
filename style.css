@@ -146,7 +146,7 @@ header {
     padding: 3% 2% 2% 2%;
 }
 
-.top {
+.top-head {
     padding-bottom: 2%;
 }
 
@@ -387,14 +387,18 @@ footer a {
         flex-wrap: nowrap;
     }
 
+    .top-head {
+        padding: 0;
+    }
+
     .aloha-logo {
-        width: 21%;
+        width: 7.5rem;
     } 
 
     nav {
       order: 1;
       border-top: none;
-      max-width: 51%;
+      max-width: 300px;
       padding: 0;
       margin-right: 14%;
     }
@@ -405,7 +409,7 @@ footer a {
 
    .cart {
       order: 2;
-      width: 8%;
+      width: 3rem;
     }
     /* PRODUCTS */
     .products {
@@ -422,5 +426,26 @@ footer a {
     }
     .square {
         min-width: calc((50% - 1.5vw)/2);
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    /* HEADER */
+
+    header {
+        padding: 1% 2%;
+    }
+
+    .aloha-logo {
+        width: 9rem;
+    }
+
+    .cart {
+        width: 4rem;
+    }
+
+    nav {
+        max-width: 28%;
+        margin-right: 8%;
     }
 }

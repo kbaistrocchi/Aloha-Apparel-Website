@@ -117,11 +117,11 @@ h2 {
 }
 
 .italic {
-    font-style: italic;
+    font-family: 'Playfair Display-italic';
 }
 
 .bold {
-    font-weight: bold;
+    font-family: 'Playfair Display-bold';
 }
 
 a {
@@ -156,7 +156,7 @@ header {
 
 nav {
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     border-top: 1px solid #d7d7d7;
     font-size: 0.8rem;
     font-weight: bold;
@@ -211,7 +211,7 @@ nav ul {
 
 .large-title {
     font-size: 2rem;
-    font-family: 'Playfair Display-regular';
+    font-family: 'Playfair Display-italic';
 }
 
 /* ABOUT */
@@ -254,10 +254,6 @@ nav ul {
 .square {
     min-width: calc((100% - 3vw)/2);
 }
-
-
-
-
 
 .mens {
     background-image: url("images/mens-category.jpg");
@@ -381,15 +377,35 @@ footer a {
 /* DESKTOP & TABLET */
 
 @media only screen and (min-width: 600px) {
-    /* HEADER */
-    html {
+    body {
         font-size: 16px;
     }
+
+    /* HEADER */
+
+    header {
+        flex-wrap: nowrap;
+    }
+
+    .aloha-logo {
+        width: 21%;
+    } 
+
     nav {
       order: 1;
+      border-top: none;
+      max-width: 51%;
+      padding: 0;
+      margin-right: 14%;
     }
+
+    nav ul {
+        justify-content: space-between;
+    }
+
    .cart {
       order: 2;
+      width: 8%;
     }
     /* PRODUCTS */
     .products {

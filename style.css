@@ -184,18 +184,18 @@ nav ul {
     color: white;
     min-height: 375px;
         /* Backgrounds */
-    background: 
-        /* 1st background - grey overlay */
+    background-image: 
+    /* 1st background - grey overlay */
     linear-gradient(
         rgba(0,0,0,0.25) 0%,
-        rgba(0,0,0,0.25) 100%
-    ),
-        /* 2nd background - girl */
-    url("images/banner-girl.png") no-repeat center 55px,
-        /*  3rd background (furthest back) - flower wallpaper */
-    url("images/flower-bkgd.jpg") repeat-x center top;
-        /* background sizes */
-    background-size:  cover, 38%, cover;
+        rgba(0,0,0,0.25) 100%),
+    /* 2nd background - girl */
+    url("images/banner-girl.png"),
+    /*  3rd background (furthest back) - flower wallpaper */
+    url("images/flower-bkgd.jpg");
+    background-size:  cover, 143px, cover; 
+    background-position: center, center 55px, center top;
+    background-repeat: repeat, no-repeat, repeat-x; 
 }
 
 .hero-txt {
@@ -416,7 +416,8 @@ footer a {
 
     .banner {
         min-height: 407px;
-        background-size: cover, 25%, cover;
+        background-size: cover, 153px, cover;
+        background-position: center, center 61px, center top;
     }
     /* PRODUCTS */
     .products {
@@ -454,5 +455,12 @@ footer a {
     nav {
         max-width: 30%;
         margin-right: 9%;
+    }
+
+    /* BANNER */
+
+    .banner {
+        min-height: 530px;
+        background-size: cover, 245px, contain;
     }
 }

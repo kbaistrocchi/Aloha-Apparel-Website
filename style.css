@@ -340,7 +340,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
     padding: 0 1%;
 }
 
@@ -357,22 +357,31 @@ form {
 }
 
 .email {
-    line-height: 2rem;
+    line-height: 2.3rem;
     border-radius: 50px;
-    width: 80%;
+    width: 200%;
     position: relative;
     left: 8%;
     border-style: none;
+    font-size: 0.75rem;
+}
+
+.email::placeholder {
+    color:#969696;
+    padding-left: 6%;
+    font-family: 'Raleway-light';
 }
 
 .subscribe {
     background-color: #e2574c;
-    height: 1.90rem;
+    height: 1.9rem;
+    font-size: 0.75rem;
     border-style: none;
-    border-radius: 50px;
+    border-radius: 29px;
     color: white;
     position: relative;
-    right: 12%;
+    right: 17%;
+    width: 56%;
 
 }
 
@@ -506,7 +515,23 @@ footer a {
     .square {
         min-width: calc((50% - 2.25vw)/2);
     }
+
+    /* SUBSCRIBE FORM */
+
+    .newsletter {
+        height: 370px;
+    }
+
+    .newsletter p {
+        font-size: 1.1rem;
+        line-height: 2rem;
+        padding: 5% 4%;
+    }
+
+
 }
+
+    
 
 @media only screen and (min-width: 1240px) {
     /* HEADER */

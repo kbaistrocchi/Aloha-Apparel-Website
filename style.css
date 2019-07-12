@@ -330,15 +330,23 @@ nav ul {
 .newsletter {
     text-align: center;
     color: #fff;
+    text-shadow: 1px 1px #2d2d2d;
     height: 300px;
-    background-image: url("images/wave-bkgd.jpg");
-    background-size: cover;
-    background-position: bottom;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.1) 0%,
+        rgba(0,0,0,0.1) 100%), url("images/wave-bkgd.jpg");
+    background-position: 50% 95%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 2% 23%;
+    justify-content: center;
+    margin-bottom: 7px;
+    padding: 0 1%;
+}
+
+.newsletter p {
+    line-height: 1.9rem;
+    padding: 5% 0;
 }
 
 form {

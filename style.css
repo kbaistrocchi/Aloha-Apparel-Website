@@ -239,6 +239,8 @@ nav ul {
 
 .products {
     color: #fff;
+    font-size: 1.4rem;
+    font-family: 'Raleway-medium';
     text-transform: uppercase;
     width: 100%;
     height: 800px;
@@ -248,8 +250,11 @@ nav ul {
     flex-wrap: wrap;
 }
 
-.products .wide, .products .square {
+.wide, .square {
     height: calc((100% - 9vw)/4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wide {
@@ -475,19 +480,20 @@ footer a {
 
     /* PRODUCTS */
     .products {
-        height: 400px;
+        height: 300px;
+        font-size: 1.8rem;
     }
 
     .products .wide, .products .square {
-        min-height: calc((100% - 1vw)/2);
+        min-height: calc((100% - 1.5vw)/2);
     }
 
     .wide {
-        min-width: calc(50% - 0.5vw);
+        min-width: calc(50% - 0.75vw);
         
     }
     .square {
-        min-width: calc((50% - 1.5vw)/2);
+        min-width: calc((50% - 2.25vw)/2);
     }
 }
 
@@ -531,4 +537,22 @@ footer a {
     .about {
         padding: 2% 25%;
         height: 204px;
+}
+
+  /* PRODUCTS */
+  .products {
+    height: 600px;
+    font-size: 2.1rem;
+}
+
+.products .wide, .products .square {
+    min-height: calc((100% - 0.65vw)/2);
+}
+
+.wide {
+    min-width: calc(50% - 0.325vw);
+    
+}
+.square {
+    min-width: calc((50% - 0.975vw)/2);
 }

@@ -350,26 +350,29 @@ nav ul {
 }
 
 form {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(4, 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .email {
     line-height: 2rem;
     border-radius: 50px;
-    grid-area: 1/1/2/5;
+    width: 80%;
+    position: relative;
+    left: 8%;
+    border-style: none;
 }
 
 .subscribe {
-    background-color: red;
+    background-color: #e2574c;
     height: 1.90rem;
+    border-style: none;
     border-radius: 50px;
     color: white;
-    grid-area: 1/4/1/5;
     position: relative;
-    right: 4%;
-    top: 12%
+    right: 12%;
 
 }
 

@@ -605,3 +605,27 @@ footer a {
 .square {
     min-width: calc((50% - 0.975vw)/2);
 }
+
+/* NEWSLETTER */
+
+.newsletter {
+    height: 335px;
+}
+
+.newsletter h2 {
+    margin-top: 6%;
+}
+
+.newsletter p {
+    padding: 2% 24%;
+}
+
+.email {
+    width: 36%;
+}
+
+.subscribe {
+    width: 9%;
+    left: 13.25%;
+
+}

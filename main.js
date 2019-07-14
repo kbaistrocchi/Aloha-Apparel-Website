@@ -31,8 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Add to Cart
 
-    // event listener to add button, when clicked, increment counter by 1.
-
     const addToCart = document.querySelectorAll('.add');
     const counter = document.querySelector('.counter');
     let count = 0;
@@ -41,6 +39,9 @@ document.addEventListener('DOMContentLoaded', function() {
         addButton.addEventListener("click", function() {
             count++;
             counter.innerHTML = count;
+            console.log(count);
+            counter.style.visibility = 'visible';
+
         })
     });
 

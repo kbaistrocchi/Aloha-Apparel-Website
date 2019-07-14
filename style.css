@@ -190,6 +190,7 @@ nav ul {
     text-align: center;
     font-family: 'Raleway-Medium';
     font-size: 1.3rem;
+    visibility: hidden;
 }
 
 /* BANNER */
@@ -369,6 +370,8 @@ h3 {
     border-radius: 29px;
     cursor: pointer;
     margin-top: 9px;
+    width: 30%;
+    height: 2.4rem;
 }
 
 /* flickity */
@@ -616,6 +619,10 @@ footer a {
     
     h3 {
         font-size: 1.5rem;
+    }
+
+    .add {
+        width: 33%;
     }
 
     /* SUBSCRIBE FORM */

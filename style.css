@@ -178,6 +178,20 @@ nav ul {
     width: 14%;
 }
 
+.counter {
+    background-color: #e2574c;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    right: 1%;
+    top: 1.5%;
+    text-align: center;
+    font-family: 'Raleway-Medium';
+    font-size: 1.3rem;
+}
+
 /* BANNER */
 
 .banner {
@@ -346,6 +360,15 @@ h3 {
 
 .category {
     text-transform: uppercase;
+}
+
+.add {
+    color: #fff;
+    background-color: #242424;
+    font-size: 1rem;
+    border-radius: 29px;
+    cursor: pointer;
+    margin-top: 9px;
 }
 
 /* flickity */
@@ -534,6 +557,11 @@ footer a {
       width: 3rem;
     }
 
+    .counter{
+    right: 2%;
+    top: 2%;
+    }
+
     /* BANNER */
 
     .banner {
@@ -673,6 +701,11 @@ footer a {
 
     .cart {
         width: 3.75rem;
+    }
+
+    .counter{
+        right: 3%;
+        top: 1%;
     }
 
     nav {

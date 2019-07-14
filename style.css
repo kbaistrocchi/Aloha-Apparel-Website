@@ -101,6 +101,8 @@
 
 body {
     width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     color: #2d2d2d;
     font-size: 14px;
@@ -129,6 +131,7 @@ a {
 }
 a:hover {
     color: #b64036;
+    cursor: pointer;
 }
 
 a:visited {
@@ -223,7 +226,7 @@ nav ul {
 }
 
 .about h2 {
-    margin: 6% auto;
+    margin: 30px auto;
 }
 
 .about p {
@@ -403,11 +406,12 @@ form {
     width: 85%;
     border-style: none;
     font-size: 0.75rem;
+    padding-left: 20px;
+
 }
 
 .email::placeholder {
     color:#969696;
-    padding-left: 6%;
     font-family: 'Raleway-light';
 }
 
@@ -419,7 +423,7 @@ form {
     border-radius: 29px;
     color: white;
     position: relative;
-    left: 28%;
+    left: 30.5%;
     bottom: 50%;
     width: 27%;
 
@@ -604,7 +608,7 @@ footer a {
         font-size: 1rem;
         height: 2.4rem;
         width: 20%;
-        left: 20.5%
+        left: 22%
 
     }
 
@@ -738,7 +742,7 @@ footer a {
 
     .subscribe {
         width: 9%;
-        left: 13.25%;
+        left: 14%;
     }
 
     /* FOOTER */

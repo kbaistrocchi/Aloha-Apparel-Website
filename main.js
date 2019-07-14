@@ -27,10 +27,22 @@ document.addEventListener('DOMContentLoaded', function() {
         else {
             alert("Please enter a valid email address")
         };
-
-
-
     })
+
+    // Add to Cart
+
+    // event listener to add button, when clicked, increment counter by 1.
+
+    const addToCart = document.querySelectorAll('.add');
+    const counter = document.querySelector('.counter');
+    let count = 0;
+
+    addToCart.forEach(function(addButton) {
+        addButton.addEventListener("click", function() {
+            count++;
+            counter.innerHTML = count;
+        })
+    });
 
     
 

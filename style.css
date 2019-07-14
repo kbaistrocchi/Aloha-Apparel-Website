@@ -99,6 +99,10 @@
 
 /* USER STYLES */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
     -webkit-box-sizing: border-box;

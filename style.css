@@ -99,7 +99,6 @@
 
 /* USER STYLES */
 
-
 body {
     width: 100%;
     box-sizing: border-box;
@@ -114,10 +113,6 @@ h1, h2, h3, h4 {
 
 h2 {
     font-size: 2rem;
-}
-h3 {
-    color: #e2574c;
-    font-size: 1rem;
 }
 
 .italic {
@@ -312,17 +307,63 @@ nav ul {
 
 /* FEATURED */
 
+.featured h2 {
+    margin: 44px 0;
+    text-align: center;
+}
+
+.carousel-container {
+    margin-bottom: 60px;
+}
+
 .product-wrapper {
     text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.product-wrapper img {
+    max-width: 100%;
 }
 
 .product-wrapper p {
     font-size: 0.6rem;
+    margin-top: 1rem;
+}
+
+h3 {
+    color: #e2574c;
+    font-size: 1rem;
+    margin-top: 1rem;
 }
 
 .category {
     text-transform: uppercase;
 }
+
+/* flickity */
+
+.flickity-prev-next-button {
+    display: none;
+  }
+
+  .flickity-page-dots {
+    bottom: -35px;
+  }
+
+  .flickity-page-dots .dot {
+    opacity: 0.75;
+    background: #2d2d2d;
+  }
+  /* fill-in selected dot */
+  .flickity-page-dots .dot.is-selected {
+    background: #000;
+  }
+  /* accessibility focus */
+  .flickity-enabled:focus .flickity-viewport {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+  }
 
 
 /* SUBSCRIBE FORM */
@@ -527,6 +568,20 @@ footer a {
         min-width: calc((50% - 2.25vw)/2);
     }
 
+    /* FEATURED */
+
+    .product-wrapper {
+        width: 50%;
+    }
+
+    .product-wrapper p {
+        font-size: 0.8rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+
     /* SUBSCRIBE FORM */
 
     .newsletter {
@@ -655,6 +710,12 @@ footer a {
     }
     .square {
         min-width: calc((50% - 0.975vw)/2);
+    }
+
+    /* FEATURED */
+
+    .product-wrapper {
+        width: 25%;
     }
 
     /* NEWSLETTER */

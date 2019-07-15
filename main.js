@@ -1,6 +1,8 @@
 console.log("it's alive!");
 
 document.addEventListener('DOMContentLoaded', function() {
+
+    // Image Carousel
     
     const flkty = new Flickity( '.carousel-container', {
     // options
@@ -8,7 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
     contain: true,
     });
 
-    // form validation
+
+    // Form Validation
 
     const subscriptionForm = document.querySelector('form');
     
@@ -39,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
         addButton.addEventListener("click", function() {
             count++;
             counter.innerHTML = count;
-            console.log(count);
+            // console.log(count);
             counter.style.visibility = 'visible';
 
         })
